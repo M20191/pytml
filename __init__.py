@@ -147,6 +147,7 @@ class html:
 			w.write("")
 			
 	# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - #
+	# Beta
 	def flask_render_pytml(self,archive):
 		if platform.system() == "Linux":
 			subprocess.call(f"cd app/ && cd templates/ && python3 {archive}.py",shell=True)
