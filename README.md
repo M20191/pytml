@@ -1,28 +1,8 @@
-## 🔅 Functions
 
-### 🔅 HTML Tags Functions
-
-+-----------------+---------+-----+------+-----+------+-----+
-| Functions tag's | content | tag | clas | idd | href | src |
-+-----------------+---------+-----+------+-----+------+-----+
-| tag             | ✅       | ✅   | ✅    | ✅   | ✅    | ✅   |
-+-----------------+---------+-----+------+-----+------+-----+
-| specialTagOpen  | ✅       | ✅   | ✅    | ✅   | ✅    | ✅   |
-+-----------------+---------+-----+------+-----+------+-----+
-| specialTagClose | ❌       | ✅   | ❌    | ❌   | ❌    | ❌   |
-+-----------------+---------+-----+------+-----+------+-----+
-
-
-### 🔅 HTML List Functions
-* liOpen(_tipe_) -> _tipe_ == UL or OL list
-* liElement(_contentli_) -> _contentli_ == Content of li
-* liClose(_tipe_)
-
-
-### 🔅 Syntax Functions
-* closeHead (necessary)
-* closeBody (necessary)
-* linkCss 
+### 🛠 Downloading repo, installing requirements and cd path:
+```
+git clone https://github.com/M20191/pytml && cd pytml/
+```
 
 ### 🚀 Example
 ```python
