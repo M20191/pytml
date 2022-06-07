@@ -6,7 +6,7 @@ git clone https://github.com/M20191/pytml && cd pytml/
 
 ### 🚀 Example
 ```python
-from . import html
+from pytml import html
 
 page = html()
 
